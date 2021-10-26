@@ -1,0 +1,67 @@
+/* Navbar */
+#navbar .logo {
+  float: none;
+  text-align: center;
+  padding: 10px;
+}
+#navbar ul, #navbar ul li {
+  float: none;
+}
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted .1px;
+}
+
+/* Utility */
+.largeHeading{
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+  padding-bottom: 20px;
+}
+#showcase .showcaseContent {
+  padding-top: 10px;
+}
+
+/* Home Info */
+#homeInfo {
+  height: 100%;
+}
+#homeInfo .infoImg {
+  display: none;
+}
+
+#homeInfo .infoContent {
+  float: none;
+  width: 100%;
+}
+
+/* Boxes */
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* About */
+#aboutInfo .infoLeft, #aboutInfo .infoRight{
+  float: none;
+  width: 100%;
+}
+#aboutInfo .infoRight{
+  margin-top: 30px;
+}
+#testimonials .testimonial {
+  border-radius: 50px 3px;
+}
+
+/* Contact */
+#contactInfo .box {
+  border-bottom: #444 dotted .1px;
+}
+#contactForm  p {
+  text-align: center;
+}
