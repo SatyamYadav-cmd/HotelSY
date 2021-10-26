@@ -74,7 +74,9 @@ p {
 .largeHeading {
   font-size: 40px;
 }
-
+.py20 {
+  padding: 20px 0;
+}
 
 
 /* Navbar */
@@ -121,7 +123,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: url(../img/showcase.jpg) no-repeat center center/cover;
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
   height: 400px;
 }
 
@@ -197,9 +199,9 @@ p {
 
 /* Testimonials */
 #testimonials {
-  height: 400px;
+  height: 100%;
   background: url("../img/test-bg.jpg") no-repeat center center/cover;
-  padding: 50px 20px;
+  padding: 50px 20px 10px 20px;
 }
 #testimonials h2 {
   color: #fff;
@@ -217,6 +219,31 @@ p {
   border-radius: 50%;
   float: left;
   margin-right: 10px;
+}
+
+/* Contact Form */
+#contactForm {
+  padding: 20px 20px;
+}
+#contactForm .formGroup{
+  margin-bottom: 10px;
+}
+#contactForm label{
+  display: block;
+  margin-bottom: 3px;
+}
+#contactForm input, #contactForm textarea {
+  border: #ddd solid 1px;
+  width: 100%;
+  padding: 6px;
+  font-size: 1rem;
+}
+#contactForm textarea {
+  height: 100px;
+}
+#contactForm input:focus, #contactForm textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
 }
 
 /* Footer */
